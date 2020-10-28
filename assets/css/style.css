@@ -843,6 +843,175 @@ section {
   color: #d9232d;
 }
 
+
+/*--------------------------------------------------------------
+# How
+--------------------------------------------------------------*/
+.how .icon-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.how .icon-box i {
+  /* float: center; */
+  color: #3b8eba;
+  font-size: 40px;
+}
+
+.how h4 {
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  
+}
+
+.how-card-title {
+  color: #f79752;
+  font-size: 2.143rem;
+  
+}
+
+.how-card-title:hover {
+  color: #3b8eba;
+  cursor: pointer;
+  
+}
+
+.how-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+
+}
+.btn-how {
+  border: 2px solid #f79752;
+  color: #f79752;
+}
+
+.btn-how:hover {
+  border: 2px solid #f79752;
+  background-color: #f79752;
+  color: #fff;
+}
+
+
+.how p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #3b8eba;
+
+}
+
+.how .icon-box h4 {
+  /* margin-left: 70px; */
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.how .icon-box h4 a {
+  text-align: center;
+  color: #556270;
+  transition: 0.3s;
+}
+
+.how .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.how .icon-box:hover h4 a {
+  color: #d9232d;
+}
+
+/*--------------------------------------------------------------
+# Programs
+--------------------------------------------------------------*/
+.programs .icon-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.programs .icon-box i {
+  /* float: center; */
+  color: #3b8eba;
+  font-size: 40px;
+}
+
+.programs h4 {
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  
+}
+
+.programs-card-title {
+  color: #f79752;
+  font-size: 2.143rem;
+  
+}
+
+.programs-card-title:hover {
+  color: #3b8eba;
+  cursor: pointer;
+  
+}
+
+.programs-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+
+}
+.btn-programs {
+  border: 2px solid #f79752;
+  color: #f79752;
+}
+
+.btn-programs:hover {
+  border: 2px solid #f79752;
+  background-color: #f79752;
+  color: #fff;
+}
+
+
+.programs p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #3b8eba;
+
+}
+
+.programs .icon-box h4 {
+  /* margin-left: 70px; */
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.programs .icon-box h4 a {
+  text-align: center;
+  color: #556270;
+  transition: 0.3s;
+}
+
+.programs .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.programs .icon-box:hover h4 a {
+  color: #d9232d;
+}
+
+
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
