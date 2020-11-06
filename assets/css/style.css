@@ -1644,6 +1644,211 @@ section {
 
 
 /*--------------------------------------------------------------
+# Ready
+--------------------------------------------------------------*/
+
+#comments {
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(63, 73, 83, 0.8);
+  /* overflow: hidden; */
+  position: relative;
+  margin-top: 100px;
+}
+
+#comments .carousel, #comments .carousel-inner, #comments .carousel-item, #comments .carousel-item::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#comments .carousel-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#comments .carousel-item::before {
+  content: '';
+  /* background-color: rgba(61, 63, 66, 0.6); */
+}
+
+#comments .carousel-container {
+  display: flex;
+  justify-content: center;
+  
+  bottom: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  
+}
+
+#comments .container {
+  text-align: center;
+  right: 0px;
+  height: 400px;
+  width: 900px;
+  /* background-image: linear-gradient(to left bottom, #f79752, #f89e54, #f8a656, #f9ad59, #f9b45c); */
+}
+
+#comments h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#comments h3 {
+  color: #3b8eba;;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Amaranth', sans-serif;
+}
+
+#comments p {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+#comments .carousel-inner .carousel-item {
+  transition-property: opacity;
+  background-position: center top;
+}
+
+#comments .carousel-inner .carousel-item,
+#comments .carousel-inner .active.carousel-item-left,
+#comments .carousel-inner .active.carousel-item-right {
+  opacity: 0;
+}
+
+#comments .carousel-inner .active,
+#comments .carousel-inner .carousel-item-next.carousel-item-left,
+#comments .carousel-inner .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#comments .carousel-inner .carousel-item-next,
+#comments .carousel-inner .carousel-item-prev,
+#comments .carousel-inner .active.carousel-item-left,
+#comments .carousel-inner .active.carousel-item-right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+#comments .carousel-control-prev, #comments .carousel-control-next {
+  width: 10%;
+  top: 112px;
+}
+
+@media (max-width: 992px) {
+  #comments .carousel-control-prev, #comments .carousel-control-next {
+    top: 66px;
+  }
+}
+
+#comments .carousel-control-next-icon, #comments .carousel-control-prev-icon {
+  background: none;
+  font-size: 36px;
+  line-height: 1;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  padding: 10px;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#comments .carousel-control-next-icon:hover, #comments .carousel-control-prev-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#comments .carousel-indicators li {
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: .6;
+  transition: 0.3s;
+}
+
+#comments .carousel-indicators li.active {
+  opacity: 1;
+  background: #f79752;
+}
+
+#comments .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #f79752;
+}
+
+#comments .btn-get-started:hover {
+  background: #f08e48;
+}
+
+@media (max-width: 992px) {
+  #comments {
+    height: 100vh;
+  }
+  #comments .carousel-container {
+    top: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  #comments h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #comments .carousel-control-prev, #comments .carousel-control-next {
+    width: 5%;
+  }
+}
+
+@media (max-height: 500px) {
+  #comments {
+    height: 120vh;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# End comments
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-item {
