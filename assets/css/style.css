@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #5595ff;
+  background: #3b8eba;
   border-radius: 4px;
   color: #fff;
 }
@@ -899,6 +899,11 @@ section {
   
 }
 
+.how-h3 {
+  color: #3b8eba;
+  font-size: 2.571rem;
+}
+
 .how-title {
   color: #3b8eba;
   font-size: 3.429rem;
@@ -1002,7 +1007,7 @@ section {
 
 .programs p {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #3b8eba;
 
 }
@@ -2778,7 +2783,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #d9232d;
+  background: #f79752;
   color: #fff;
   text-decoration: none;
 }
