@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #e1444d;
+  background: #5595ff;
   border-radius: 4px;
   color: #fff;
 }
@@ -414,10 +414,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0 20px 20px 0;
   text-align: center;
   position: absolute;
-  height: 300px;
+  height: 250px;
   width: 600px;
   background-color: #18d26e;
-  bottom: -16px;
+  bottom: -100px;
   z-index: 10000;
   background-image: linear-gradient(to left bottom, #f79752, #f89e54, #f8a656, #f9ad59, #f9b45c);
 }
@@ -1504,10 +1504,10 @@ section {
   text-align: center;
   position: absolute;
   right: 0px;
-  height: 400px;
-  width: 900px;
+  height: 320px;
+  width: 800px;
   background-color: #18d26e;
-  bottom: -25px;
+  bottom: -95px;
   z-index: 10000;
   background-image: linear-gradient(to left bottom, #f79752, #f89e54, #f8a656, #f9ad59, #f9b45c);
 }
@@ -1522,7 +1522,7 @@ section {
 #ready h3 {
   color: #fff;
   margin-bottom: 20px;
-  font-size: 60px;
+  font-size: 43px;
   font-weight: 500;
   text-align: left;
   font-family: 'Amaranth', sans-serif;
@@ -2888,4 +2888,36 @@ section {
 .form-control {
   background-color: #f6f6f6;
   border-color: #f6f6f6;
+}
+
+
+.item-zoom {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item-zoom img {
+	vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.item-zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.counter-count
+{
+    font-size: 18px;
+    color: #ffffff;
+    display: inline-block;
 }
