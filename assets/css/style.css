@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #d9232d;
+  color: #f79752;
 }
 
 .nav-menu .drop-down > a:after {
@@ -798,9 +798,14 @@ section {
 .services .icon-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  padding: 30px;
+  
+  padding-top: 60px;
+  
   border-radius: 6px;
+}
+
+.services-title {
+  padding-bottom: 30px;
 }
 
 .services .icon-box i {
@@ -924,7 +929,7 @@ section {
 
 .how p {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #3b8eba;
 
 }
@@ -1035,6 +1040,11 @@ section {
   color: #d9232d;
 }
 
+.benefits-item {
+  color: #3b8eba;
+  font-size: 15px;
+  margin-top: 8px;
+}
 
 
 /*--------------------------------------------------------------
@@ -2925,4 +2935,13 @@ section {
     font-size: 18px;
     color: #ffffff;
     display: inline-block;
+}
+
+.image-container {
+  align-items: flex-end;
+  display: flex;
+}
+
+.pilar-icon {
+  height: 100px;
 }
