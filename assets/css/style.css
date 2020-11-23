@@ -314,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #d9232d;
+  color: #f79752;
   text-decoration: none;
 }
 
@@ -2958,8 +2958,77 @@ section {
 }
 
 
+
 /* @media (max-width: 768px) { 
   .counts {
     padding: 0px 0 60px 0;
   }
  } */
+
+ #carousel-comments img {
+  max-height: 70vh;
+  object-fit: cover;
+ }
+
+ #carousel-comments {
+   position: relative;
+ }
+
+ #carousel-comments .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: linear-gradient(to right, transparent, #ececec);
+ }
+
+ #carousel-comments .overlay .container,
+ #carousel-comments .overlay .row {
+  height: 100%;
+ }
+
+ #carousel-comments .carousel-indicators > li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #f79752;
+}
+
+ #carousel-comments .overlay p {
+   color: #3b8eba;
+   font-size: 1.5rem !important;
+   font-weight: 400;
+   font-family: 'Amaranth', sans-serif ;
+  }
+  
+  #carousel-comments .overlay h4 {
+    font-family: "Titillium Web", "Open Sans", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: #f79752;
+ }
+
+ .card-footer {
+  background: transparent;
+  border-top: 0px;
+}
+ 
+ @media (max-width: 768px) { 
+  #carousel-comments .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(233, 230, 230, 0.5);
+  }
+
+  }
+
+
+  @media (max-width: 992px) { 
+    #contactImage {
+      display: none;
+    }
+   }
