@@ -20,9 +20,11 @@ Grey: #a9abae */
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Titillium Web", "Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -721,7 +723,7 @@ section {
 }
 
 .about-text {
-  font-size: 15px !important;
+  font-size: 1.1em;
   font-family: "Open Sans", sans-serif;
   color:  #3b8eba;
 
@@ -738,7 +740,8 @@ section {
 .about .content h3 {
   font-weight: 500;
   line-height: 32px;
-  font-size: 24px;
+  
+  font-family: "Titillium Web";
 }
 
 .about .content ul {
@@ -834,7 +837,7 @@ section {
 
 .services p {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #3b8eba;
 
 }
@@ -910,7 +913,7 @@ section {
 }
 
 .how-title {
-  color: #3b8eba;
+  color: #87888b;
   font-size: 3.429rem;
   font-weight: 700;
 
@@ -931,6 +934,7 @@ section {
   text-align: center;
   font-size: 0.9em;
   color: #3b8eba;
+  /* color: #767779; */
 
 }
 
@@ -966,6 +970,13 @@ section {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
+}
+
+.programs-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+
 }
 
 .programs .icon-box i {
@@ -2945,3 +2956,10 @@ section {
 .pilar-icon {
   height: 100px !important;
 }
+
+
+/* @media (max-width: 768px) { 
+  .counts {
+    padding: 0px 0 60px 0;
+  }
+ } */
