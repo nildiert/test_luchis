@@ -3015,6 +3015,14 @@ section {
 }
  
  @media (max-width: 768px) { 
+  #carousel-comments {
+      min-height: 400px !important;  
+  }
+  #carousel-comments img {
+  min-height: 60vh;
+  object-fit: cover;
+  }
+
   #carousel-comments .overlay {
     position: absolute;
     top: 0;
@@ -3025,6 +3033,16 @@ section {
   }
 
   }
+
+  @media (max-width: 576px) { 
+    #carousel-comments .overlay {
+      background-image: linear-gradient(to right,  rgba(255, 255, 255, 0.5), white);
+
+    }
+    #carousel-comments .overlay .row {
+      margin-left: 120px;
+    }
+   }
 
 
   @media (max-width: 992px) { 
