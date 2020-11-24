@@ -719,14 +719,17 @@ section {
   font-weight: 700;
   font-size: 58px;
   line-height: 60px;
-  color:  #87888b;;
+  /* color:  #87888b; */
+  color:  #3b8eba;
+
 }
 
 .about-text {
   font-size: 1.1em;
   font-family: "Open Sans", sans-serif;
-  /* color:  #3b8eba; */
-  color:  #87888b;
+  color:  #3785af;
+  font-weight: bold;
+  /* color:  #87888b; */
   /* #87888b; */
 
 }
@@ -839,7 +842,7 @@ section {
 
 .services p {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #3b8eba;
 
 }
@@ -915,7 +918,8 @@ section {
 }
 
 .how-title {
-  color: #87888b;
+  /* color: #87888b; */
+  color: #3b8eba;
   font-size: 3.429rem;
   font-weight: 700;
 
@@ -934,8 +938,9 @@ section {
 
 .how p {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #3b8eba;
+  /* color: #444444; */
   /* color: #767779; */
 
 }
@@ -1055,7 +1060,8 @@ section {
 
 .benefits-item {
   color: #3b8eba;
-  font-size: 15px;
+  /* color: #444444; */
+  font-size: 16px;
   margin-top: 8px;
 }
 
