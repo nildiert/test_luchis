@@ -228,7 +228,7 @@
         <div class="col-md-12 d-flex justify-content-center mt-5 mb-5">
           <h2 class="how-title">Programas</h2>
         </div>
-          <div class="col-md-4 ">
+          <div class="col-md-4 d-flex align-items-stretch ">
             <div class="card border-light">
             <a href="">
             <div class="item-zoom" style="height: 200px;">
@@ -246,7 +246,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex align-items-stretch">
             <div class="card border-light" >
               <a href="">
                 <div class="item-zoom" style="height: 200px;">
@@ -375,31 +375,87 @@
 
 
     <!-- ======= Count Section ======= -->
-    <section id="counts" class="counts bg-white">
+    <section id="counts" class="counts bg-white mt-5">
       <div class="container-fluid">
 
-        <div class="row counters">
-          <div class="col-md-12 d-flex justify-content-center mt-5 mb-5">
+        <div class="row">
+
+          <div class="col-md-12 d-flex justify-content-center mb-5">
             <h2 class="programs-title">Estadísticas</h2>
-
-
           </div>
 
-          <div class="col-lg-4 col-6 text-center">
-            <span class="counter-count" data-toggle="counter-up">85%</span>
-            <p>Clients</p>
+          <div class="col-xl-4 col-lg-4 mb-5">
+      
+              <!-- Progress bar 1 -->
+              <div class="progress mx-auto" data-value='85'>
+                <span class="progress-left">
+                              <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                              <span class="progress-bar border-primary"></span>
+                </span>
+                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div class="h2 font-weight-bold">85 %</div>
+                </div>
+              </div>
+              <!-- END -->
+      
+              <!-- Demo info -->
+              <div class="row d-flex justify-content-center text-center mt-4">
+                <div class="col-8">
+                  <span class="text-gray">De mis pacientes con obesidad pierden hasta un 10% de su peso. Marta pesaba 90 kilos y perdió 10 kilos en un solo mes.</span>
+                </div>
+              </div>
+              <!-- END -->
           </div>
-
-          <div class="col-lg-4 col-6 text-center">
-            <span class="counter-count" data-toggle="counter-up">90%</span>
-            <p>Projects</p>
+          <div class="col-xl-4 col-lg-4 mb-5">
+    
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value='90'>
+              <span class="progress-left">
+                            <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                            <span class="progress-bar border-primary"></span>
+              </span>
+              <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                <div class="h2 font-weight-bold">90 %</div>
+              </div>
+            </div>
+            <!-- END -->
+    
+            <!-- Demo info -->
+            <div class="row d-flex justify-content-center text-center mt-4">
+              <div class="col-8">
+                <span class="text-gray">De mis pacientes afirman haber mejorado su vida por completo al terminar el programa.</span>
+              </div>
+            </div>
+            <!-- END -->
+        </div>
+        <div class="col-xl-4 col-lg-4 mb-5">
+  
+          <!-- Progress bar 1 -->
+          <div class="progress mx-auto" data-value='90'>
+            <span class="progress-left">
+                          <span class="progress-bar border-primary"></span>
+            </span>
+            <span class="progress-right">
+                          <span class="progress-bar border-primary"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">90 %</div>
+            </div>
           </div>
-
-          <div class="col-lg-4 col-6 text-center">
-            <span class="counter-count" data-toggle="counter-up">90%</span>
-            <p>Hours Of Support</p>
+          <!-- END -->
+  
+          <!-- Demo info -->
+          <div class="row d-flex justify-content-center text-center mt-4">
+            <div class="col-8">
+              <span class="text-gray">De mis pacientes afirman que volverían a unirse al programa sin pensarlo dos veces.</span>
+            </div>
           </div>
-
+          <!-- END -->
+      </div>               
         </div>
 
       </div>
@@ -501,27 +557,27 @@
 
         <div class="row mt-5">
           <div class="col-md-12 d-flex justify-content-center mb-5">
-            <h2 class="programs-title">How we Cure</h2>
+            <h2 class="programs-title">Contacto</h2>
           </div>
 
           <div class="col-lg-6 col-md-12 col-sm-12">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
@@ -529,7 +585,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-right"><button type="submit">Send Message</button></div>
+              <div class="text-right"><button type="submit">Enviar Mensaje</button></div>
             </form>
 
           </div>
