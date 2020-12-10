@@ -983,7 +983,6 @@ section {
   color: #3b8eba;
   font-size: 3.429rem;
   font-weight: 700;
-
 }
 
 .programs .icon-box i {
@@ -2765,14 +2764,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #929497;
+  background: #3f4040;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #a9abae;
+  background: rgb(75,75,75);
   padding: 60px 0 30px 0;
 }
 
@@ -3134,4 +3133,284 @@ section {
 
 .border-primary {
   border-color: #3b8eba !important; 
+}
+
+
+
+/* ABOUT ME PAGE */
+
+
+.jumbotron{
+  background: url("http://edward-carter.ancorathemes.com/wp-content/uploads/2016/12/title_image.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  border-radius: 0%;
+  margin-bottom: 0;
+}
+
+
+
+#hero-about-me .jumbotron h1 {
+  color: #fff;
+  font-family: "Amaranth",sans-serif;
+  font-size: 4.286rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.12;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: -0.4px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+#hero-about-me .jumbotron h3 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #hero-about-me .jumbotron h1{
+    margin-top: 20px;
+    font-size: 2.286rem;
+  }
+}
+.vertical-center {
+  height:100%;
+  width:100%;
+
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;    /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+                           /* reset the font property */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.welcome-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+}
+
+.welcome-subtitle {
+  color: #2bbfcf;
+  font-size: 1.429rem;
+  font-weight: 700;
+}
+
+.welcome-text {
+  color: #a9abae;
+}
+
+
+/*--------------------------------------------------------------
+# About-me
+--------------------------------------------------------------*/
+.about-me {
+  width: 100%;
+  height: 500px;
+  background: url('../img/slide/luchis/luis_ortiz1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+/*--------------------------------------------------------------
+# How Works
+--------------------------------------------------------------*/
+.how-works-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+}
+
+.how-works-text {
+  text-align: left;
+  font-size: 14px;
+}
+
+
+
+/*--------------------------------------------------------------
+# FAQ
+--------------------------------------------------------------*/
+.faq-title {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+}
+
+.faq-subtitle {
+  color: #3b8eba;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.faq-text {
+  text-align: left;
+  font-size: 14px;
+  color: #3b8eba;
+}
+
+
+/*--------------------------------------------------------------
+# Cost
+--------------------------------------------------------------*/
+.cost .icon-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.cost .icon-box i {
+  /* float: center; */
+  color: #3b8eba;
+  font-size: 40px;
+}
+
+.cost h4 {
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  
+}
+
+.cost-card-title {
+  color: #f79752;
+  font-size: 2.143rem;
+  
+}
+
+.cost-card-title:hover {
+  color: #3b8eba;
+  cursor: pointer;
+  
+}
+
+.cost-h3 {
+  color: #3b8eba;
+  font-size: 2.571rem;
+}
+
+.cost-title {
+  /* color: #87888b; */
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+
+}
+.btn-cost {
+  border: 2px solid #f79752;
+  color: #f79752;
+}
+
+.btn-cost:hover {
+  border: 2px solid #f79752;
+  background-color: #f79752;
+  color: #fff;
+}
+
+
+.cost p {
+  text-align: center;
+  font-size: 1em;
+  color: #3b8eba;
+  /* color: #444444; */
+  /* color: #767779; */
+
+}
+
+.cost .icon-box h4 {
+  /* margin-left: 70px; */
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.cost .icon-box h4 a {
+  text-align: center;
+  color: #556270;
+  transition: 0.3s;
+}
+
+.cost .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.cost .icon-box:hover h4 a {
+  color: #d9232d;
+}
+
+
+
+/*--------------------------------------------------------------
+# Collapse styles
+--------------------------------------------------------------*/
+/* Style the buttons that are used to open and close the accordion panel */
+
+
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 2px 0 2px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #f79752;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion-active, .accordion:hover {
+  background-color: #fff;
+  color:  #f79752;
+  border: none;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  outline: 0px solid transparent;
+}
+
+button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
 }
