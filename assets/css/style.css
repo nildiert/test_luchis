@@ -1399,14 +1399,6 @@ section {
   background: #f8f8f8;
 }
 
-.pricing h4 {
-  font-size: 36px;
-  color: #d9232d;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
 .pricing h4 sup {
   font-size: 20px;
   top: -15px;
@@ -1464,14 +1456,7 @@ section {
   transition: 0.3s;
 }
 
-.pricing .btn-buy:hover {
-  background: #e1444d;
-}
 
-.pricing .featured h3 {
-  color: #fff;
-  background: #d9232d;
-}
 
 .pricing .advanced {
   width: 200px;
