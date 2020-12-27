@@ -1399,6 +1399,7 @@ section {
   background: #f8f8f8;
 }
 
+
 .pricing h4 sup {
   font-size: 20px;
   top: -15px;
@@ -1455,7 +1456,6 @@ section {
   font-weight: 600;
   transition: 0.3s;
 }
-
 
 
 .pricing .advanced {
@@ -3423,8 +3423,8 @@ button:focus {
   background: #3b8eba;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #pricing {
-    margin-top: 0;
+    margin-top: 50px;
   }
  }
