@@ -3414,3 +3414,32 @@ section {
 button:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
+
+#pricing {
+  margin-top: 50px;
+}
+
+.pricing h4 {
+  color: #3b8eba;
+  font-size: 3.429rem;
+  font-weight: 700;
+  font-family: 'Amaranth', sans-serif ;
+}
+
+.pricing .featured h3 {
+  background: #f79752; 
+}
+
+.pricing .btn-buy {
+  background: #f79752; 
+}
+
+.pricing .btn-buy:hover {
+  background: #3b8eba;
+}
+
+@media (max-width: 576px) { 
+  #pricing {
+    margin-top: 0;
+  }
+ }
