@@ -3126,11 +3126,11 @@ section {
 
 
 .jumbotron{
-  background: url("http://edward-carter.ancorathemes.com/wp-content/uploads/2016/12/title_image.jpg") no-repeat center center; 
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background: url('../img/slide/luchis/LO19.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   border-radius: 0%;
   margin-bottom: 0;
