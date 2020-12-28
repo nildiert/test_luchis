@@ -3428,3 +3428,7 @@ button:focus {
     margin-top: 50px;
   }
  }
+
+ .info-content {
+  font-size: 1.2rem;
+ }
