@@ -933,6 +933,7 @@ section {
 .btn-how {
   border: 2px solid #f79752;
   color: #f79752;
+  font-size: 1.5rem;
 }
 
 .btn-how:hover {
