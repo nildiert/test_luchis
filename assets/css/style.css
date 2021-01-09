@@ -727,6 +727,7 @@ section {
   background: #f79752;
   color: white;
   margin-right: 15px;
+  font-size: 1.5rem;
 }
 
 .btn-about:hover {
