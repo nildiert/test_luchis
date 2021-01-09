@@ -3495,3 +3495,13 @@ button:focus {
   }
 
 }
+
+.icons-about-me {
+  font-size: 40px;
+  color: #3b8eba;
+}
+
+.icons-about-me:hover {
+  color: #f79752;
+}
+
