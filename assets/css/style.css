@@ -3006,7 +3006,7 @@ section {
 
 #carousel-comments .overlay p {
   color: #3b8eba;
-  font-size: 1.5rem !important;
+  font-size: 2.5rem !important;
   font-weight: 400;
   font-family: "Amaranth", sans-serif;
 }
@@ -3050,9 +3050,9 @@ section {
       white
     );
   }
-  #carousel-comments .overlay .row {
+  /* #carousel-comments .overlay .row {
     margin-left: 120px;
-  }
+  } */
 }
 
 @media (max-width: 992px) {
@@ -3505,4 +3505,3 @@ button:focus {
 .icons-about-me:hover {
   color: #f79752;
 }
-
