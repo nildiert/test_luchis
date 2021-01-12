@@ -706,7 +706,7 @@ section {
 .about {
   width: 100%;
   height: 500px;
-  background: url("../img/slide/luchis/LO11.jpg");
+  background: url("https://raw.githubusercontent.com/nildiert/test_luchis/gh-pages/assets/img/slide/luchis/LO11.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3139,7 +3139,7 @@ section {
 /* ABOUT ME PAGE */
 
 .jumbotron {
-  background: url("../img/slide/luchis/LO19.jpg") no-repeat center center;
+  background: url("https://raw.githubusercontent.com/nildiert/test_luchis/gh-pages/assets/img/slide/luchis/LO19.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3225,7 +3225,7 @@ section {
 .about-me {
   width: 100%;
   height: 500px;
-  background: url("../img/slide/luchis/luis_ortiz1.jpeg");
+  background: url("https://raw.githubusercontent.com/nildiert/test_luchis/gh-pages/assets/img/slide/luchis/luis_ortiz1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
